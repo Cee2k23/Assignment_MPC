@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.all{
+    border: 2px solid purple;
+    padding: 23px;
+    /* width: 50%; */
+}
+
+.div-1{
+    align-items: center;
+    border: 1px solid yellowgreen;
+    color: teal;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 200px;
+}
+.div-2{
+    align-items: center;
+    border: 1px solid yellowgreen;
+    color: teal;
+    /* display: flex; */
+    /* flex-direction: row; */
+    gap: 200px;
+}
+.div-3{
+    /* align-items: center; */
+    border: 1px solid yellowgreen;
+    color: teal;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 200px;
+}
+
+.div-3-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-4{
+    /* align-items: center; */
+    border: 1px solid yellowgreen;
+    color: teal;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: space-around; */
+}
+
+.radio{
+    border: 1px solid teal;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.first button{
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
