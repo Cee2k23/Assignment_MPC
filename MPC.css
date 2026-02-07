@@ -14,38 +14,49 @@ body{
 
 .all{
     border: 2px solid purple;
-    padding: 23px;
+    padding: 11px;
     /* width: 50%; */
 }
 
 .div-1{
     align-items: center;
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     color: teal;
     display: flex;
     /* flex-direction: row; */
-    gap: 200px;
+    gap: 89px;
+    padding: 10px 0;
 }
 .div-2{
-    align-items: center;
-    border: 1px solid yellowgreen;
+    /* align-items: center; */
+    /* border: 1px solid yellowgreen; */
     color: teal;
-    /* display: flex; */
-    /* flex-direction: row; */
-    gap: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.div-2 input{
+    height: 34px;
 }
 .div-3{
     /* align-items: center; */
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     color: teal;
     display: flex;
     /* flex-direction: row; */
-    gap: 200px;
+    /* gap: 29px; */
+    margin-top: -40px;
 }
 
 .div-3-1{
     display: flex;
     flex-direction: column;
+}
+
+.div-3-1 input{
+    height: 34px;
 }
 
 .div-4{
