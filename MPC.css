@@ -14,7 +14,9 @@ body{
 
 .all{
     border: 2px solid purple;
-    padding: 11px;
+    display: flex;
+    /* flex-direction: row; */
+    padding: 9px;
     /* width: 50%; */
 }
 
@@ -24,7 +26,7 @@ body{
     color: teal;
     display: flex;
     /* flex-direction: row; */
-    gap: 89px;
+    gap: 115px;
     padding: 10px 0;
 }
 .div-2{
@@ -39,6 +41,7 @@ body{
 
 .div-2 input{
     height: 34px;
+    width: 360px;
 }
 .div-3{
     /* align-items: center; */
@@ -61,11 +64,12 @@ body{
 
 .div-4{
     /* align-items: center; */
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     color: teal;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 20px 0;
     /* justify-content: space-around; */
 }
 
@@ -73,12 +77,23 @@ body{
     border: 1px solid teal;
     border-radius: 10px;
     padding: 10px;
+    width: 360px;
 }
 
 .first button{
     background-color: yellow;
     border: none;
     border-radius: 20px;
+    color: teal;
     padding: 10px 15px;
 }
 
+.second{
+    /* align-items: center; */
+    background: teal;
+    border-radius: 0px 20px 20px 50px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    padding: 1px 80px;
+}
